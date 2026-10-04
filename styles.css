@@ -54,3 +54,12 @@ body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webki
   .goodbye h1{font-size:30px!important;font-weight:700!important}
   .password-cell{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace!important}
 }
+
+/* Mobile: full-width header logo */
+@media(max-width:620px){
+  .hero-panel,.login-brand{padding-left:0!important;padding-right:0!important}
+  .logo-wrap{width:100%!important;max-width:100%!important;padding:0!important;margin:0!important}
+  .logo,.logo-img{width:100%!important;max-width:100%!important;height:auto!important;object-fit:contain!important}
+  .logo-wrap .greeting-script,.logo-wrap .quote-script{padding:0 16px}
+  .hero-copy{padding:0 18px}
+}
